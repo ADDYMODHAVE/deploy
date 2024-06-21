@@ -7,6 +7,7 @@ const http = require("http");
 const dotenv = require("dotenv");
 const userRoutes = require("./routes/userRoutes");
 const pollRoutes = require("./routes/pollRoutes");
+const path = require("path");
 
 dotenv.config();
 const app = express();
